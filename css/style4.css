@@ -1,0 +1,27 @@
+
+body{
+    background-color: cadetblue;
+    padding: 50px;
+    font-family: 'Comfortaa', cursive;  
+}
+.centrado{
+    text-align: center;
+}
+.cuadrado{
+padding: 20px;
+margin: auto;
+border: 1px solid;
+border-radius: 5px;
+
+}
+
+header{
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+img{
+    width: 250px;
+    height: 250px;
+}

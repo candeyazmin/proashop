@@ -1,0 +1,16 @@
+
+.cuadrado{
+    padding: 20px;
+    margin: auto;
+    border: 1px solid ;
+    border-radius: 5px;
+    background-color: white;
+}
+.container{
+    padding: 5px;
+    margin: auto;
+    background-color: ivory;
+}
+.centrado{
+    text-align: center;
+}    
