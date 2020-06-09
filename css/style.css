@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/1.jpeg);
+    background-image: url(../img/6.png);
     background-size: cover;
     padding: 2px;
     margin: 5px;
@@ -20,7 +20,7 @@ h1{
     font-family: 'Piedra', cursive;
     font-size: 150px;
     text-align: center;
-    color: #ffffff;
+    color: black;
 }
 .button {
     display: inline-block;
