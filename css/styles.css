@@ -6,16 +6,20 @@
     background-color: navajowhite;
     height: 100%;
 }
-body{
-background: url(..img/5.png);
-}
 img{
     width: 250px;
 }
 body{
+    padding: 10px;
+    margin: auto;
     background: cadetblue;
 }
-header{
-    font-size: 100px;
+h1{
+    padding: 5px;
+    margin: auto;
+    font-size: 200px;
     text-align: center;
+}
+body button{
+   float: right;
 }
