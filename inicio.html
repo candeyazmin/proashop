@@ -1,7 +1,11 @@
-<head>
-    <title>Inicio de sesion</title>
-    <link rel= "stylesheet" href="css/estilo.css">
-
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Inicio de sesion</title>
+        <link rel= "stylesheet" href="css/estilo.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -9,26 +13,29 @@
         
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
         <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">   
+    </head> 
 </head>
 <body>
     <h1> PROASHOP </h1>
-    <div class="modal-dialog text-center">
-        <div class="col-sm-8 main-section">
-            <div class="modal-content">
-                <div class="col-12 user-img">
-                    <img src="img/logo.jpg">
+    <div class="container">
+        <div class="row modal-dialog text-center">
+            <div class="col-sm-8 main-section">
+                <div class="modal-content">
+                    <div class="col-12 user-img">
+                        <img src="img/logo.jpg">
+                    </div>
+                    <form class="col-12" th:action="@{/login}" method="get">
+                        <div class="form-group" id="user-group">
+                            <input type="text" class="form-control" placeholder="Nombre de usuario" name="username"/>
+                        </div>
+                        <div class="form-group" id="contrasena-group">
+                            <input type="password" class="form-control" placeholder="Contrasena" name="password"/>
+                        </div>
+                        <a class="button" href="kiosco.html" type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>  Ingresar</a>
+                    </form>
                 </div>
-                <form class="col-12" th:action="@{/login}" method="get">
-                    <div class="form-group" id="user-group">
-                        <input type="text" class="form-control" placeholder="Nombre de usuario" name="username"/>
-                    </div>
-                    <div class="form-group" id="contrasena-group">
-                        <input type="password" class="form-control" placeholder="Contrasena" name="password"/>
-                    </div>
-                    <a class="button" href="kiosco.html" type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>  Ingresar</a>
-                </form>
             </div>
         </div>
-    </div>
+     </div>
 </body>
+</html>
