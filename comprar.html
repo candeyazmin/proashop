@@ -11,21 +11,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Oswald:wght@200&display=swap" rel="stylesheet">
 
-    <title>Bootstrap base proyecto</title>
   </head>
   <body>
-   <header>KIOSCO</header>
-    <div class="container ">
-        <div class="row">
-            <div class="col-xs-5">
-              <label class="col-lg-2 control-label">Monto:</label>
-              <input type="text" class="form-control" placeholder="$">
+    <header>
+    <h1>¡CARGAR!</h1>
+    </header>
+    <div class="container">
+      <form>
+          <div class="form-group row justify-content-md-center">
+              <div class="col-sm-4">
+                  <span > Nombre: </span>
+                  <input type="text" class="form-control" name="inputname"   readonly>
+              </div>
+              <div class="col-sm-4">
+                <span > Apellido: </span>
+                <input type="text" class="form-control" name="inputname"   readonly>
             </div>
-            <label>
-              <input type="checkbox"> Deseas recibir el comprobante a tu correo 
-            </label>
+            <div class=" col-sm-4">
+                  <span>Monto: $</span>
+                  <input type="number" class="form-control" id="number">
+              </div>
           </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>  
+    </div>
+    <div class="container  ">
+      <div class="row justify-content-md-center">
+        <div class="col-md-2">
+            <button id="button1" class="btn btn-warning">ENVIAR</button>
+          </div>
         </div>
+        <div class="custom-control custom-checkbox text-center">
+          <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+          <label class="custom-control-label" for="defaultUnchecked">Deseas recibir el comprobante a tu correo</label>
+      </div>
+    </div>
   </body>
 </html>
